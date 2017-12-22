@@ -1,0 +1,12 @@
+{
+  "require": {
+    "phpdocumentor/reflection-docblock": "@stable",
+    "phpunit/dbunit": "@stable",
+    "phpunit/phpunit": "@stable",
+    "ramsey/uuid": "@stable",
+    "swiftmailer/swiftmailer": "^6.0"
+  },
+  "scripts": {
+    "phpunit": "./vendor/bin/phpunit -c ./php/classes/Test --coverage-html coverage"
+  }
+}
